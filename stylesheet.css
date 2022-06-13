@@ -1,0 +1,30 @@
+.nav-bar {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    
+}
+
+#home-h1 {
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100 px;
+    line-height: 20;
+}
+
+body {
+    display: inline;
+  /*  background-color: grey;   */
+    
+}
+
+.lower {
+ /*   background-color: grey;   */
+}
+

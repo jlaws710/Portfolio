@@ -1,18 +1,23 @@
 * {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     box-sizing: border-box;
-    background-color: #24252A;  
+    background-color: #1a2238;
 }
 
+.home_page {
+   background-color: #1a2238;
+}
+   /* My Linkedin Page  */
 img {
     width: 50px;
     height: 50px;
 }
-
+   /*          */
 header {
-    border: black;
+    border: thick solid;
+    background-color: #1a2238;
 }
-
+   /* My Navigation Bar  */
 .nav_bar {
    display: flex;
    justify-content: flex-end;
@@ -21,10 +26,27 @@ header {
    margin: 10px;
    font-size: 30px;
 }
+   /*         */
+
+   /* My Home page Text */
 #home-h1 {
-    color: white;
+    color: white;   
+}
+   /*       */
+
+#about_h1 {
+    text-align: center;
+    color: #9daaf2;     
 }
 
+.about_p {
+    
+    text-indent: 100pt;
+    font-size: 35px;
+    padding: 5px;
+    color: #9daaf2;
+    line-height: 2em;
+}
 li {
     list-style: none;
     padding: 20px;
@@ -41,7 +63,7 @@ a:hover {
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 .My-Text {
@@ -54,12 +76,22 @@ a:visited {
     font-size: 40px;
 }
 
-@media screen and (max-width: 555px) {
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 560px) {
+    header {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
     .nav_bar {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
-        margin: 10px;
+        padding: 20px;
+        margin: 20px;
     }
 }

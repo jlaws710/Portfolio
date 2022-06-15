@@ -15,6 +15,7 @@ img {
    /*          */
 header {
     border: thick solid;
+    border-color: #9daaf2;
     background-color: #1a2238;
 }
    /* My Navigation Bar  */
@@ -36,7 +37,17 @@ header {
 
 #about_h1 {
     text-align: center;
-    color: #9daaf2;     
+    color: #9daaf2; 
+    padding: 20;
+    font-size: 30px;
+    line-height: 5;
+}
+#experience-h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 10;
+    color:#9daaf2
 }
 
 .about_p {
@@ -60,6 +71,7 @@ a:link {
 
 a:hover {
     text-decoration: underline; 
+    background-color: #9daaf2;
 }
 
 a:visited {
@@ -81,6 +93,51 @@ a:visited {
     flex-direction: column;
     align-items: center;
 }
+   /*   Experience page skills  */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+}
+
+#HTML {
+    border: solid thick #9daaf2;
+    color: #f4db7d;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#Javascript {
+    border: solid thick #9daaf2;
+    color: #ff6a3d;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#C {
+    border: solid thick #9daaf2;
+    color: #f4db7d;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#PLC {
+    border: solid thick #9daaf2;
+    color: #ff6a3d;
+    font-size: 50px;
+    padding: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+    /*      */
 @media screen and (max-width: 560px) {
     header {
         display:flex;

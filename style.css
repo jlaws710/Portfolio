@@ -22,7 +22,7 @@
 }
 .nav {
     position: fixed;
-  /*  background-color: #222;  */ background-color: #1a2238;
+    background-color: #1a2238;
     top: 0;
     left: 0;
     right: 0;
@@ -191,15 +191,17 @@
     }
     #home-h1 {
         padding: 5px 5px;
-        font-size: 2px 2px;
+        font-size: 40px;
+        line-height: 1em;
+        min-height: 10vh;
     }
     #about_h1 {
         text-align: center;
         font-size: 30px;
         text-align: center;
-        padding: 10;
+        padding: 10px;
         font-size: 30px;
-        line-height: 2;
+        line-height: 1;
     }
     .about_p {
         text-indent: 25pt;
@@ -210,10 +212,9 @@
         text-align: center;
         padding: 20px;
         font-size: 30px;
-        line-height: 3;
+        line-height: 2;
     }
     .skills {
-        justify-content: space-evenly;
         flex-direction: column;
     }
     
@@ -222,8 +223,8 @@
         padding: 20px;
     }
     #Javasscript {
-        font-size: 30px;
-        padding: 20px;
+        font-size: 20px;
+        padding: 10px;
     }
     
     #C {
@@ -231,7 +232,7 @@
         padding: 20px;
     }
     PLC {
-        font-size: 30px;
+        font-size: 20px;
         padding: 10px;
     }
     .form_container {
